@@ -1,6 +1,8 @@
 // App packages 
 const inquirer = require('inquirer');
 const fs = require('fs');
+// const { rejects } = require('assert');
+// const { resolve } = require('path');
 
 // User questions
 const questions = [
@@ -105,18 +107,16 @@ const questions = [
         type: 'checkbox',
         name: 'language',
         message: 'What languages did you use to build your project? (Check all that apply)',
-        choices: ('HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Node.js', 'other'),
+        choices: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Node.js', 'other'],
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
-        message: 'What licenses does your program have? (Check all that apply)',
+        message: 'What licenses does your program have?',
         choices: ['Apache License 2.0', 'BSC License', 'MIT License', 'GPL License', 'Mozilla Public License 2.0', 'other', 'no license']
     },
   ]
-  .then((answers) => {
-console.log(answers);
-  })
+
 //   .catch((error) => {
 //     if (error.isTtyError) {
 //       // Prompt couldn't be rendered in the current environment
@@ -128,10 +128,26 @@ console.log(answers);
 
 
 // // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
 
-// // TODO: Create a function to initialize app
-// function init() {}
+// function writeFile = fileContent => {
+    
+//     fs.writeFile('./dist/readme.md'), fileContent, err => {
+//         if (err) {
+//             rejects(err);
+//             return;
+//         }
+//         resolve({
+//             ok: true,
+//             message: 'Abrakadabra README.md!'
+//         });
+//     }
+// };
 
-// // Function call to initialize app
-// init();
+// Initialize app
+function init() {
+    inquirer.prompt(questions)
+    .then((answers) => {
+  console.log(answers);
+    })
+}
+init();
