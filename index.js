@@ -1,7 +1,7 @@
 // App packages 
 const inquirer = require('inquirer');
 const fs = require('fs');
-const {generateMarkdown} = require('./utils/generateMarkdown.js');
+const { generateMarkdown } = require('./utils/generateMarkdown.js');
 // const { rejects } = require('assert');
 // const { resolve } = require('path');
 
@@ -36,12 +36,12 @@ const questions = [
         {
         type: 'input',
         name: 'installation',
-        message: 'What instructions do your users need to install this app? (Required)',
+        message: 'What do your users need to install use this app? (Required)',
         validate: installationInput => {
             if (installationInput) {
               return true;
             } else {
-              console.log('Your users would appreciate instructions!');
+              console.log('Your users would appreciate installation instructions!');
               return false;
             }
         }    
@@ -61,10 +61,41 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributors',
+        name: 'tests',
+        message: 'Please include app testing information, here:',
+        default: false
+    },
+    {
+        type: 'checkbox',
+        name: 'language',
+        message: 'What languages did you use to build your project? (Check all that apply)',
+        choices: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Node.js', 'other']
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Please include any licenses associated with your application:',
+        choices: ['Apache License 2.0', 'BSC License', 'MIT License', 'GPL License', 'Mozilla Public License 2.0', 'other']
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'What are the requirements for contributing to your project? (Required)',
+        validate: contributingInput => {
+            if (contributingInput) {
+              return true;
+            } else {
+              console.log('If there are no requirements to contribute, type "none". If there are contributions allowed, type "no contributions allowed".');
+              return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'credits',
         message: 'Who contributed to your project? (Required)',
-        validate: contributorsInput => {
-            if (contributorsInput) {
+        validate: creditsInput => {
+            if (creditsInput) {
               return true;
             } else {
               console.log('Please give some credit to the contributors!');
@@ -97,24 +128,6 @@ const questions = [
               return false;
             }
         }
-    },
-    {
-        type: 'input',
-        name: 'testing',
-        message: 'Include testing information, here:',
-        default: false
-    },
-    {
-        type: 'checkbox',
-        name: 'language',
-        message: 'What languages did you use to build your project? (Check all that apply)',
-        choices: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Node.js', 'other'],
-    },
-    {
-        type: 'list',
-        name: 'license',
-        message: 'What licenses does your program have?',
-        choices: ['Apache License 2.0', 'BSC License', 'MIT License', 'GPL License', 'Mozilla Public License 2.0', 'other', 'no license']
     },
   ]
 
