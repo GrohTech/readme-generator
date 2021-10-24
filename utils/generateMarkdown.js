@@ -26,58 +26,57 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## Description 
+## Description 
 
-  ${data.description}
+${data.description}
   
-  ## Badges
+## Badges
 
-  ${renderLicenseBadge(data.license)}
-  ${renderLicenseLink(data.license)}
+${renderLicenseBadge(data.license)}
+${renderLicenseLink(data.license)}
   
-  ## Table of Contents 
+## Table of Contents 
+
+* [Installation](#installation)
+* [Instructions](#instructions)
+* [Tests](#tests)
+* [Languages](#languages)
+* [Licenses](#license)
+* [Contributing](#contributing)
+* [Credits](#credits)
+* [Questions](#questions)
+
+## Installation
+
+${data.installation}
   
-  * [Installation](#installation)
-  * [Instructions](#instructions)
-  * [Tests](#tests)
-  * [Languages](#languages)
-  * [Licenses](#license)
-  * [Contributing](#contributing)
-  * [Credits](#credits)
-  * [Questions](#questions)
+## Instructions 
 
+${data.instructions}
   
-  ## Installation
+## Tests
 
-  ${data.installation}
+${data.tests}
+
+## Languages
+
+${data.language}
+
+## License
+
+${renderLicenseSection(data.license)}
   
-  ## Instructions 
+## Contributing
 
-  ${data.instructions}
-  
-  ## Tests
+${data.contributing}
 
-  ${data.tests}
+## Credits
 
-  ## Languages
+${data.credits}
 
-  ${data.language}
+## Questions
 
-  ## License
-
-  ${renderLicenseSection(data.license)}
-  
-  ## Contributing
-
-  ${data.contributing}
-
-  ## Credits
-
-  ${data.credits}
-
-  ## Questions
-
-  If you have any questions please connect with me through [GitHub](${data.github}) or  [${data.email}](mailto:${data.email}).
+If you have any questions please connect with me through [GitHub](${data.github}) or  [${data.email}](mailto:${data.email}).
 `;
 }
 
