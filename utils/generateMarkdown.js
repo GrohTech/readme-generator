@@ -70,7 +70,7 @@ function generateMarkdown(data) {
   ${data.credits}
 
   ## Questions
-  If you have any questions please connect with me, here ![email](${data.github}) or email me, here ![GitHub](${data.email}).
+  If you have any questions please connect with me, here [email](${data.github}) or email me, here [GitHub](${data.email}).
 `;
 }
 

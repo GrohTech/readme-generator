@@ -43,4 +43,4 @@
   Lauren Groh (with help from TA Maria Wong, tutor Ismael Lopez, and various YouTube videos and GitHub projects.
 
   ## Questions
-  If you have any questions please connect with me, here ![email](https://github.com/GrohTech) or email me, here ![GitHub](legroh@uwm.edu).
+  If you have any questions please connect with me, here [email](https://github.com/GrohTech) or email me, here [GitHub](legroh@uwm.edu).
