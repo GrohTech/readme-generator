@@ -21,6 +21,7 @@ Users will need node.js, fs, and inquirer.
 ## Instructions 
 
 Clone repository and use npm install command in terminal. Then initiate app by typing node index.js in the terminal.
+[App Demo Video](https://watch.screencastify.com/v/QdoYkFatgPCvxBqWPTLn)
 
 ## Languages
 

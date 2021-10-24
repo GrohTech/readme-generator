@@ -1,56 +1,55 @@
-# adfs;dfsjkl;
+# README Generator
 
-  ## Description 
+## Description 
 
-  adfsjkl;dfsjkl;
+Creates a README file with all of your instructions about your project.
   
-  ## Badges
+## Badges
 
-  <img src= "https://shields.io/badge/license-Apache 2.0-blue" alt="license badge"/>
-  
+<img src= "https://shields.io/badge/license-Apache 2.0-blue" alt="license badge"/>
+
 * [License](#license)
 
   
-  ## Table of Contents 
+## Table of Contents 
+
+* [Installation](#installation)
+* [Instructions](#instructions)
+* [Tests](#tests)
+* [Languages](#languages)
+* [Licenses](#license)
+* [Contributing](#contributing)
+* [Credits](#credits)
+* [Questions](#questions)
+
+## Installation
+
+asdfl;kj
   
-  * [Installation](#installation)
-  * [Instructions](#instructions)
-  * [Tests](#tests)
-  * [Languages](#languages)
-  * [Licenses](#license)
-  * [Contributing](#contributing)
-  * [Credits](#credits)
-  * [Questions](#questions)
+## Instructions 
 
+ads;lfkj
   
-  ## Installation
+## Tests
 
-  adfsjkl;jkl;
+as;dfldfjkls
+
+## Languages
+
+JavaScript,Node.js
+
+## License
+
+Apache 2.0
   
-  ## Instructions 
+## Contributing
 
-  adfsjkl;adfsjkl;
-  
-  ## Tests
+None
 
-  aadfsjkl;dfs
+## Credits
 
-  ## Languages
+Lauren Groh
 
-  HTML
+## Questions
 
-  ## License
-
-  Apache 2.0
-  
-  ## Contributing
-
-  dfs
-
-  ## Credits
-
-  adfs
-
-  ## Questions
-
-  If you have any questions please connect with me through [GitHub](https//:github.com/grohtech) or  [legroh@uwm.edu](mailto:legroh@uwm.edu).
+If you have any questions please connect with me through [GitHub](https://github.com/GrohTech) or  [legroh@uwm.edu](mailto:legroh@uwm.edu).
