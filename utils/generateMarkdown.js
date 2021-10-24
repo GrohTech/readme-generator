@@ -67,7 +67,7 @@ function generateMarkdown(data) {
   ${data.credits}
 
   ## Questions
-  If you have any questions please connect with me through [GitHub](${data.github}) or  [legroh@uwm.edu](mailto:${data.email}).
+  If you have any questions please connect with me through [GitHub](${data.github}) or  [${data.email}](mailto:${data.email}).
 `;
 }
 
