@@ -25,12 +25,12 @@
   ## Credits
     Lauren Groh 
     Additional help from Trilogy TA Maria Wong, Trilogy tutor Ismael Lopez, Trilogy materials, and the below resources.
-    [The Net Ninja](https://youtu.be/U57kU311-nE)
-    [Discover Frederick Thomas](https://youtu.be/Pp9IG-prQjE)
-    [Markodex](https://youtu.be/1AxFrY2oSiw)
-    [Ryan Blessing](https://github.com/ryanblessing/potential-enigma)
-    [Like a Native](https://youtu.be/cqJQ9wbUQto)
-    [GitHub Forum](https://github.com/github/markup/issues/1030)
+    * [The Net Ninja](https://youtu.be/U57kU311-nE)
+    * [Discover Frederick Thomas](https://youtu.be/Pp9IG-prQjE)
+    * [Markodex](https://youtu.be/1AxFrY2oSiw)
+    * [Ryan Blessing](https://github.com/ryanblessing/potential-enigma)
+    * [Like a Native](https://youtu.be/cqJQ9wbUQto)
+    * [GitHub Forum](https://github.com/github/markup/issues/1030)
 
   ## Questions
   If you have any questions please connect with me through [GitHub](https://github.com/GrohTech) or [legroh@uwm.edu](mailto:legroh@uwm.edu).
