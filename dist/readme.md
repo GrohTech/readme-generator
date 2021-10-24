@@ -4,7 +4,7 @@
    d
   
   ## Badges
-  <img src= "https://shields.io/badge/license-GPL License-blue" alt="license badge"/>
+  <img src= "https://shields.io/badge/license-Apache License 2.0-blue" alt="license badge"/>
   
 * [License](#license)
 
@@ -31,16 +31,16 @@
   d
 
   ## Languages
-  HTML,JavaScript,Bootstrap
+  
 
   ## License
-  GPL License
+  Apache License 2.0
   
   ## Contributing
-  df
+  d
 
   ## Credits
-  asdfadsfasdfadsf
+  d
 
   ## Questions
-  If you have any questions please connect with me on [GitHub](https://github.com/GrohTech) by[email](legroh@uwm.edu).
+  If you have any questions please connect with me on [GitHub](https://github.com/GrohTech) or by [email](mailto:legroh@uwm.edu)(legroh@uwm.edu).
