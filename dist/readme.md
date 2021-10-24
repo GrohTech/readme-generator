@@ -1,10 +1,10 @@
-# d
+# README Generator
 
   ## Description 
-   adsfadsf
+   When initiated, this app presents the user with questions to answer on the command line. After the user answers the questions, they will be presented with a README.md file to add to their project.
   
   ## Badges
-  https://shields.io/badge/license-GPL License-blue
+  <img src= "https://shields.io/badge/license-Apache License 2.0-blue" alt="license badge"/>
   
 * [License](#license)
 
@@ -22,25 +22,25 @@
   
   
   ## Installation
-  adsfadsf
+  Users will need node.js, fs, and inquirer.
   
   ## Instructions 
-  adsf
+  Clone repository and use npm install command in the terminal.
   
   ## Tests
-  adsf
+  None
 
   ## Languages
-  HTML,JavaScript,Node.js
+  JavaScript,Node.js
 
   ## License
-  GPL License
+  Apache License 2.0
   
   ## Contributing
-  dsf
+  None
 
   ## Credits
-  adsf
+  Lauren Groh (with help from TA Maria Wong, tutor Ismael Lopez, and various YouTube videos and GitHub projects.
 
   ## Questions
-  If you have any questions please connect with me, here ![email](github.com/grohtech) or email me, here ![GitHub](legroh@uwm.edu).
+  If you have any questions please connect with me, here ![email](https://github.com/GrohTech) or email me, here ![GitHub](legroh@uwm.edu).
