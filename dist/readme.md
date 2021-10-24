@@ -37,10 +37,10 @@
   Apache License 2.0
   
   ## Contributing
-  d
+  none
 
   ## Credits
-  d
+  adfsk;l
 
   ## Questions
-  If you have any questions please connect with me on [GitHub](https://github.com/GrohTech) or by [email](mailto:legroh@uwm.edu)(legroh@uwm.edu).
+  If you have any questions please connect with me through [GitHub](https://github.com/GrohTech) or  [legroh@uwm.edu](mailto:legroh@uwm.edu).
