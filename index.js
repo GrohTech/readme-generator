@@ -75,20 +75,20 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Please include any licenses associated with your application:',
-        choices: ['Apache License 2.0', 'BSC License', 'MIT License', 'GPL License', 'Mozilla Public License 2.0', 'other']
+        choices: ['Apache 2.0', 'BSC', 'MIT', 'GPL ', 'Mozilla Public 2.0']
     },
     {
         type: 'input',
         name: 'contributing',
-        message: 'What are the requirements for contributing to your project? (Required)',
-        validate: contributingInput => {
-            if (contributingInput) {
-                return true;
-            } else {
-                console.log('If there are no requirements to contribute, type "none". If there are contributions allowed, type "no contributions allowed".');
-                return false;
-            }
-        }
+        message: 'What are the requirements for contributing to your project?',
+        // validate: contributingInput => {
+        //     if (contributingInput) {
+        //         return true;
+        //     } else {
+        //         console.log('If there are no requirements to contribute, type "none". If there are contributions allowed, type "no contributions allowed".');
+        //         return false;
+        //     }
+        // }
     },
     {
         type: 'input',
@@ -111,7 +111,7 @@ const questions = [
             if (githubInput) {
                 return true;
             } else {
-                console.log('Give users a way to look at your other work!');
+                console.log('Give users a way to contact you or look at your other projects!');
                 return false;
             }
         }
@@ -141,7 +141,7 @@ const questions = [
 
 
 
-// TODO: Create a function to write README file
+// Write README file
 
 function writeToFile(answers) {
 

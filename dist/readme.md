@@ -1,10 +1,10 @@
-# d
+# okay
 
   ## Description 
-   d
+   adf
   
   ## Badges
-  <img src= "https://shields.io/badge/license-Apache License 2.0-blue" alt="license badge"/>
+  <img src= "https://shields.io/badge/license-Mozilla Public 2.0-blue" alt="license badge"/>
   
 * [License](#license)
 
@@ -22,25 +22,25 @@
   
   
   ## Installation
-  d
+  adsf
   
   ## Instructions 
-  d
+  dfas;kl
   
   ## Tests
-  d
+  false
 
   ## Languages
-  
+  HTML,JavaScript,Bootstrap
 
   ## License
-  Apache License 2.0
+  Mozilla Public 2.0
   
   ## Contributing
-  none
+  
 
   ## Credits
-  adfsk;l
+  dfd
 
   ## Questions
-  If you have any questions please connect with me through [GitHub](https://github.com/GrohTech) or  [legroh@uwm.edu](mailto:legroh@uwm.edu).
+  If you have any questions please connect with me through [GitHub](adsf) or  [legroh@uwm.edu](mailto:adsf).
