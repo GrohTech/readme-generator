@@ -131,31 +131,31 @@ const questions = [
     },
   ]
 
-//   .catch((error) => {
-//     if (error.isTtyError) {
-//       // Prompt couldn't be rendered in the current environment
-//     } else {
-//       // Something else went wrong
-//     }
-//   });
+  .catch((error) => {
+    if (error.isTtyError) {
+      // Prompt couldn't be rendered in the current environment
+    } else {
+      // Something else went wrong
+    }
+  });
 
 
 
-// // TODO: Create a function to write README file
+// TODO: Create a function to write README file
 
-// function writeFile = fileContent => {
+function writeToFile = fileContent => {
     
-//     fs.writeFile('./dist/readme.md'), fileContent, err => {
-//         if (err) {
-//             rejects(err);
-//             return;
-//         }
-//         resolve({
-//             ok: true,
-//             message: 'Abrakadabra README.md!'
-//         });
-//     }
-// };
+    fs.writeFile('./dist/readme.md'), fileContent, err => {
+        if (err) {
+            rejects(err);
+            return;
+        }
+        resolve({
+            ok: true,
+            message: 'Abrakadabra README.md!'
+        });
+    }
+};
 
 // Initialize app
 function init() {
